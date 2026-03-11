@@ -1,0 +1,9 @@
+Date,Region,Product_Category,Sales_Revenue
+2023-01-01,North,Electronics,15000
+2023-01-01,South,Furniture,8000
+2023-02-01,North,Electronics,18000
+2023-02-01,East,Clothing,5000
+2023-03-01,West,Electronics,22000
+2023-03-01,South,Furniture,9500
+2023-04-01,North,Clothing,7000
+2023-04-01,East,Furniture,11000
