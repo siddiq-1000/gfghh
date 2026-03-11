@@ -1,0 +1,63 @@
+﻿node.exe : 
+(node:12432) 
+ExperimentalWarning: 
+CommonJS module C:\User
+s\yusra\AppData\Roaming
+\npm\node_modules\npm\n
+ode_modules\debug\src\n
+ode.js is loading ES 
+Module C:\Users\yusra\A
+ppData\Roaming\npm\node
+_modules\npm\node_modul
+es\supports-color\index
+.js using require().
+At C:\Program Files\nod
+ejs\npx.ps1:29 char:3
++   & $NODE_EXE 
+$NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: ((node:12432)    
+ Ex...sing require(    
+).:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+Support for loading ES 
+Module in require() is 
+an experimental 
+feature and might 
+change at any time
+(Use `node 
+--trace-warnings ...` 
+to show where the 
+warning was created)
+
+C:\Users\yusra\Downloads\GFGH\frontend\src\app\page.tsx
+  10:46  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  12:32  warning  'data' is defined but never used          @typescript-eslint/no-unused-vars
+  12:38  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  16:42  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\yusra\Downloads\GFGH\frontend\src\components\ChatInterface.tsx
+   6:90  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  49:14  warning  'err' is defined but never used           @typescript-eslint/no-unused-vars
+  49:19  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\yusra\Downloads\GFGH\frontend\src\components\DashboardRenderer.tsx
+    3:10  warning  'useMemo' is defined but never used       @typescript-eslint/no-unused-vars
+   13:61  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  105:40  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  130:38  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\yusra\Downloads\GFGH\frontend\src\components\FileUpload.tsx
+   6:71  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  35:6   warning  React Hook useCallback has a missing dependency: 'uploadFile'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  52:19  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+Γ£û 14 problems (10 errors, 4 warnings)
+
